@@ -1,8 +1,8 @@
 .logo {
     display: inline;
     margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 430px;
+    margin-left: 3%;
+    margin-right: 33%;
 }
 
 .search {
@@ -46,20 +46,35 @@
     background-color: yellowgreen;
 }
 
-.introduction {
-    width: 1170px;
+nav {
+    width: 1180px;
     height: 300px;
-    padding: 20px 40px;
+    margin: 20px 3%;
     overflow: hidden;
 }
 
 .control {
     position: absolute;
-    width: 1170px;
+    width: 1180px;
     height: 300px;
     display: none;
 }
 
 .control.active {
     display: block;
+}
+
+h3 {
+    color: white;
+    background-color: green;
+    margin: 10px 84% 20px 3%; 
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.goods {
+    margin: 5px 3%;
+    border-radius: 5%;
+    width: 27%;
+    height: 27%;
 }
