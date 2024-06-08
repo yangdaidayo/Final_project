@@ -60,12 +60,13 @@ body {
 
 .text {
     float: right;
-    width: 55%;
-    height: 301px;
+    width: 50%;
+    height: 261px;
     margin: 25px 3% 25px 1%;
-    padding: 20px;
+    padding: 40px;
     border: 5px dotted gray;
     border-radius: 5%;
+    background-color: lightgrey;
 }
 
 .top{
