@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>茶道-登入/註冊</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="image/index/logo.png" width="150px" height="50px" name="top"></a> <!--圖片需替換-->
+        <p class="search">搜尋欄</p>
+        <input type="text" name="search" size="15px" class="search">
+        <p class="index"><a href="goods.html" class="link">商品頁面</a></p> <!--檔案位置需替換-->
+        <p class="index"><a href="about_us.html" class="link">關於我們</a></p> 
+        <p class="index"><a href="login.html" class="link">登入/註冊</a></p> <!--檔案位置需替換-->
+        <p class="cart"><a href="shopping.html" class="Link">購物車(3)</a></p> <!--檔案位置需替換-->
+    </header> 
+    
+    <main>
+        <section class="login">
+            <h1>登入</h1>
+            <div class="form-container">
+                <h2>基本資料填寫</h2>
+                <form>
+                    <label for="login-username">帳號：</label>
+                    <input type="text" id="login-username" name="username"><br>
+                    
+                    <label for="login-password">密碼：</label>
+                    <input type="password" id="login-password" name="password"><br>
+                    
+                    <label for="login-confirm-password">確認密碼：</label>
+                    <input type="password" id="login-confirm-password" name="confirm-password"><br>
+                    
+                    <button type="submit" class="submit-btn">確認送出</button>
+                    <button type="reset" class="reset-btn">重新輸入</button>
+                </form>
+                <a href="#" class="forgot-password">忘記了密碼???帳號???</a>
+            </div>
+        </section>
+        
+        <section class="register">
+            <h1>註冊</h1>
+            <div class="form-container">
+                <h2>基本資料填寫</h2>
+                <form>
+                    <label for="register-name">姓名：</label>
+                    <input type="text" id="register-name" name="name"><br>
+                    
+                    <label for="register-phone">電話：</label>
+                    <input type="text" id="register-phone" name="phone"><br>
+                    
+                    <label for="register-email">Email：</label>
+                    <input type="email" id="register-email" name="email"><br>
+                    
+                    <label for="register-dob">出生年月日：</label>
+                    <input type="date" id="register-dob" name="dob"><br>
+                    
+                    <label for="register-gender">性別：</label>
+                    <input type="text" id="register-gender" name="gender"><br>
+                    
+                    <label for="register-username">帳號：</label>
+                    <input type="text" id="register-username" name="username"><br>
+                    
+                    <label for="register-password">密碼：</label>
+                    <input type="password" id="register-password" name="password"><br>
+                    
+                    <label for="register-confirm-password">確認密碼：</label>
+                    <input type="password" id="register-confirm-password" name="confirm-password"><br>
+                    
+                    <button type="submit" class="submit-btn">確認送出</button>
+                    <button type="reset" class="reset-btn">重新輸入</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>聯絡資訊:</h4>
+        <p>電話:0912-345-678 電子信箱:<a href="mailto:Chadao@gmail.com" target="_blank">Chadao@gmail.com</a></p>
+        <h4>追蹤我們:</h4>
+        <p>
+            <a href="https://www.facebook.com/CYCU.PR/?locale=zh_TW" target="_blank"><img src="image/index/fb.png" class="media"></a>
+            <a href="https://twitter.com/X" target="_blank"><img src="image/index/x.jpg" class="media"></a>
+            <a href="https://www.instagram.com/cycu_tw/" target="_blank"><img src="image/index/ig.png" class="media"></a>
+        </p>
+        © 2024 茶道 版權所有
+    </footer>
+</body>
+</html>

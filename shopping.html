@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>茶道-購物車</title>
+    <link rel="stylesheet" href="CSS/shopping.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="image/index/logo.png" width="150px" height="50px" name="top"></a> <!--圖片需替換-->
+        <p class="search">搜尋欄</p>
+        <input type="text" name="search" size="15px" class="search">
+        <p class="index"><a href="goods.html" class="link">商品頁面</a></p> <!--檔案位置需替換-->
+        <p class="index"><a href="about_us.html" class="link">關於我們</a></p> 
+        <p class="index"><a href="login.html" class="link">登入/註冊</a></p> <!--檔案位置需替換-->
+        <p class="cart"><a href="shopping.html" class="Link">購物車(3)</a></p> <!--檔案位置需替換-->
+    </header> 
+        
+    <main>
+        <section class="hero">
+            <img src="image\Tea.jpg" alt="形象圖" class="hero-image">
+        </section>
+        <h1>茶道</h1>
+            <!-- 柚香綠茶 -->
+        <div class="shopping-cart">
+            <div class="cart-item">
+                <img src="image/items/green.jpg" alt="柚香綠茶" class="item-image">
+                <div class="item-details">
+                    <h2>柚香綠茶</h2>
+                    <p>NTD 45</p>
+                </div>
+                <input type="button" value="+" onclick="incrementQuantity('greenTea')">
+                <input type="text" id="greenTea-quantity" value="0">
+                <input type="button" value="-" onclick="decrementQuantity('greenTea')">
+            </div>
+
+            <!-- 蜜桃烏龍茶 -->
+            <div class="cart-item">
+                <img src="image/items/peach_oolong.jpg" alt="蜜桃烏龍茶" class="item-image">
+                <div class="item-details">
+                    <h2>蜜桃烏龍茶</h2>
+                    <p>NTD 70</p>
+                </div>
+
+                <input type="button" value="+" onclick="incrementQuantity('peachOolong')">
+                <input type="text" id="peachOolong-quantity" value="0">
+                <input type="button" value="-" onclick="decrementQuantity('peachOolong')">
+
+
+            </div>
+
+            <!-- 薄荷檸檬冰茶 -->
+            <div class="cart-item">
+                <img src="image/items/mint_lemon.jpg" alt="薄荷檸檬冰茶" class="item-image">
+                <div class="item-details">
+                    <h2>薄荷檸檬冰茶</h2>
+                    <p>NTD 60</p>
+                </div>
+                <input type="button" value="+" onclick="incrementQuantity('mintLemon')">
+                <input type="text" id="mintLemon-quantity" value="0">
+                <input type="button" value="-" onclick="decrementQuantity('mintLemon')">
+            </div>
+        </div>
+        <!-- 柚香綠茶 -->
+        <!-- 柚香綠茶 -->
+        <!-- 柚香綠茶 -->
+        <!-- 柚香綠茶 -->
+        <!-- 柚香綠茶 -->   
+        <!-- 柚香綠茶 --> 
+
+
+        <div class="order-summary">
+            <h3>預訂資料填寫</h3>
+            <p>姓名：<input type="text" name="name"></p>
+            <p>電話：<input type="text" name="phone"></p>
+            <p>拿取日期：<input type="date" name="date"></p>
+            <p>拿取時間：<input type="time" name="time"></p>
+            <p>付款方式：<input type="text" name="payment"></p>
+        </div>
+
+        <div class="payment-summary">
+            <h3>付款金額</h3>
+            <p id="subtotal">小計: NTD 0</p>
+            <p id="shippingFee">運費: NTD 0</p>
+            <p id="total">總計: NTD 0</p>
+            <button type="button">繼續購買</button>
+            <button type="button">確認訂單</button>
+        </div>
+
+    </main>
+    
+    <footer>
+        <h4>聯絡資訊:</h4>
+        <p>電話:0912-345-678 電子信箱:<a href="mailto:Chadao@gmail.com" target="_blank">Chadao@gmail.com</a></p>
+        <h4>追蹤我們:</h4>
+        <p>
+            <a href="https://www.facebook.com/CYCU.PR/?locale=zh_TW" target="_blank"><img src="C:/Users/user/OneDrive/桌面/Final_project-main/image/index/fb.png" class="media"></a>
+            <a href="https://twitter.com/X" target="_blank"><img src="C:/Users/user/OneDrive/桌面/Final_project-main/image/index/x.jpg" class="media"></a>
+            <a href="https://www.instagram.com/cycu_tw/" target="_blank"><img src="C:/Users/user/OneDrive/桌面/Final_project-main/image/index/ig.png" class="media"></a>
+        </p>
+        © 2024 茶道 版權所有
+    </footer>
+</body>
+</html>
