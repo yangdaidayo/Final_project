@@ -31,10 +31,6 @@ input.search {
     display: inline;
     margin: 10px;
 }
-.cart {
-    display: inline;
-    margin: 15px 10px;
-}
 
 .link {
     color: #D5B1C8;
@@ -43,15 +39,7 @@ input.search {
     border-radius: 5px;
 }
 
-.Link {
-    background-color: #416F5D;
-    color: #D7E9E6;
-    text-decoration: none;
-    padding: 7px;
-    border-radius: 5px;
-}
-
-.link:hover, .Link:hover {
+.link:hover {
     background-color: #9CBB89;
     color: #416F5D;
 }
