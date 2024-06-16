@@ -5,58 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>茶道-購物車</title>
     <link rel="stylesheet" href="CSS/shopping.css">
+    <link rel="stylesheet" href="CSS/index_style.css">
+    <script type="text/javascript" src="JS/index_script.js"></script>
+    <script type="text/javascript" src="JS/shopping.js"></script>
 </head>
 <body>
-    
-    <script>
-        function incrementQuantity(item, price) {
-            var quantityElement = document.getElementById(item + '-quantity');
-            var quantity = parseInt(quantityElement.value);
-            quantity++;
-            quantityElement.value = quantity;
-            updateTotalPrice();
-        }
-    
-        function decrementQuantity(item, price) {
-            var quantityElement = document.getElementById(item + '-quantity');
-            var quantity = parseInt(quantityElement.value);
-            if (quantity > 0) {
-                quantity--;
-                quantityElement.value = quantity;
-                updateTotalPrice();
-            }
-        }
-    
-        function updateTotalPrice() {
-            var greenTeaPrice = 45; // 柚香綠茶單價
-            var peachOolongPrice = 70; // 蜜桃烏龍茶單價
-            var mintLemonPrice = 60; // 薄荷檸檬冰茶單價
-            var greenTeaQuantity = parseInt(document.getElementById('drink9-quantity').value);
-            var peachOolongQuantity = parseInt(document.getElementById('drink8-quantity').value);
-            var mintLemonQuantity = parseInt(document.getElementById('drink7-quantity').value);
-            var subtotal = (greenTeaPrice * greenTeaQuantity) + (peachOolongPrice * peachOolongQuantity) + (mintLemonPrice * mintLemonQuantity);
-            var shippingFee = 60; // 運費
-            var total = subtotal + shippingFee;
-    
-            document.getElementById('subtotal').innerText = '小計: NTD ' + subtotal;
-            document.getElementById('shippingFee').innerText = '運費: NTD ' + shippingFee;
-            document.getElementById('total').innerText = '總計: NTD ' + total;
-        } //js
-    </script>
-    
     <header>
-        <a href="index.html"><img class="logo" src="image/index/logo.png" width="150px" height="50px" name="top"></a> <!--圖片需替換-->
+        <a href="index.html"><img class="logo" src="image/index/logo.png" width="150px" height="50px" name="top"></a>
         <p class="search">搜尋欄</p>
         <input type="text" name="search" size="15px" class="search">
-        <p class="index"><a href="index.html" class="link">Home</a></p>
         <p class="index"><a href="Product page.html" class="link">商品頁面</a></p>
-        <p class="index"><a href="about_us.html" class="link">關於我們</a></p> 
+        <p class="index"><a href="about_us.html" class="link">關於我們</a></p>
         <p class="index"><a href="login.html" class="link">登入/註冊</a></p>
-    </header> 
+        <p class="cart"><a href="shopping.html" class="Link">購物車(3)</a></p>
+    </header>
+    
+     
         
     <main>
         <section class="hero">
-            <img src="image\Tea.jpg" alt="形象圖" class="hero-image">
+            <img src="image\index\Tea.jpg" alt="形象圖" class="hero-image">
         </section>
         <h1>茶道</h1>
         <div class="shopping-cart">

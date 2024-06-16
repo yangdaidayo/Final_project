@@ -1,49 +1,4 @@
 
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #D7E9E6;
-}
-
-.logo {
-    display: inline;
-    margin-top: 20px;
-    margin-left: 3%;
-    margin-right: 33%;
-    border-radius: 10px;
-}
-
-.search {
-    display: inline;
-    margin-top: 15px;
-    margin-right: 10px;
-    color: #416F5D;
-}
-
-input.search {
-    padding: 5px;
-    border: 1px solid #416F5D;
-    border-radius: 3px;
-}
-
-.index {
-    display: inline;
-    margin: 10px;
-}
-
-.link {
-    color: #D5B1C8;
-    text-decoration: none;
-    padding: 7px;
-    border-radius: 5px;
-}
-
-.link:hover {
-    background-color: #9CBB89;
-    color: #416F5D;
-}
-
 .hero {
     text-align: center;
     margin: 20px 0;
@@ -195,6 +150,7 @@ footer h4, footer p {
 footer a {
     color: #416F5D;
 }
+
 .media {
     width: 40px;
     height: 40px;
